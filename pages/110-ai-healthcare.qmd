@@ -1,0 +1,53 @@
+
+---
+title: "Why LLMs in healthcare?"
+---
+
+::: {.callout-note}
+### Key Takeaways
+
+- LLMs excel at **language tasks**: summarising, drafting, translating, extracting, and answering questions with citations.
+- Use **retrieval‑augmented generation (RAG)** to ground outputs in trusted local guidelines, pathways, and formularies.
+- Apply **human‑in‑the‑loop** review for all clinical outputs; LLMs can be helpful but are fallible.
+- Prioritise **data privacy, governance, and prompt hygiene** when handling sensitive information.
+:::
+
+
+### Administrative Tasks
+
+
+- **AI Scribes (LLM-powered)**: Convert ambient consultation audio into structured draft notes (history, exam, plan) and generate draft discharge summaries or clinic letters. This can save 5-10 minutes per patient appointment.
+  
+- **Summarisation & Standardisation**: Turn lengthy free-text notes into succinct summaries; convert variable discharge letters into standard templates with required fields; translate patient correspondence into plain language or other languages.
+
+- **Information Extraction**: Pull key entities (medications, allergies, dates, diagnoses) from unstructured clinical text for registry updates, handover lists, or quality improvement audits.
+
+
+
+### Clinical Decision Support
+
+- **Guideline Q&A with Citations (RAG)**: Ask questions against trusted sources (local pathways, formulary, NICE/BNF, institutional policies) and receive grounded answers with direct links to source passages.
+
+- **Chart Summarisation & Timeline Reconstruction**: Condense years of notes into problem-oriented summaries; surface relevant history, medication changes, and key investigations to aid clinical decision-making during reviews or handovers.
+
+- **Differential & Plan Drafting (for review)**: Generate candidate differential diagnoses, red flags, and draft management plans **that must be checked** by the clinician against current guidelines and individual patient context.
+
+
+::: {.callout-important}
+## Human-in-the-Loop Principle
+All LLM-generated clinical documentation must be **reviewed, verified, and signed** by the responsible clinician. You remain professionally and legally accountable for clinical records. Human review is essential to mitigate hallucinations, misinterpretations, and negligence risks.
+:::
+
+### Research and Innovation: Accelerating Evidence Work
+
+- **Literature Triage & Summarisation**: Screen abstracts against inclusion criteria; create structured summaries (PICO framework) from papers; accelerate systematic review processes.
+
+- **Protocol & Document Drafting**: Produce first drafts of study protocols, ethics applications.
+
+
+### Operational Efficiency: Improving Service Delivery
+
+- **Policy & SOP Q&A (RAG)**: Enable staff to query institutional policies, safeguarding procedures, and escalation pathways.
+
+- **Patient Education Materials**: Generate patient-specific educational leaflets and discharge instructions in accessible language.
+

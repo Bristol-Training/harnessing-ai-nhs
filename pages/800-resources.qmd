@@ -1,0 +1,56 @@
+---
+title: "Resources"
+---
+
+### Hospital Group, NHS and Government Policies and Guidelines
+
+- **Artificial Intelligence (AI) Policy (NBT & UHBW), MSA28508 (2025)** (available on the Intranet)
+
+- [North Bristol NHS Trust Extended Digital Strategy 2023–2025](https://www.nbt.nhs.uk/sites/default/files/document/NBT%20Extended%20Digital%20Strategy%202023-2025%20-%20UPDATED%20-%20FINAL%20-%20MAY24.pdf)
+
+- NBT and UHBW [Joint Clinical Strategy 2024–2027](https://www.nbt.nhs.uk/sites/default/files/document/Joint%20Clinical%20Strategy%202024%20-%202027.pdf)
+
+
+- [Fit for the Future: The 10-Year Health Plan for England (July 2025)](https://www.gov.uk/government/publications/fit-for-the-future-10-year-health-plan-for-england)
+
+- [AI Opportunities Action Plan Government Response (January 2025)](https://www.gov.uk/government/publications/ai-opportunities-action-plan-government-response)
+
+- [Data Saves Lives: Reshaping Health and Social Care with Data](https://www.gov.uk/government/publications/data-saves-lives-reshaping-health-and-social-care-with-data)
+
+- [Burges Salmon: NHS 10-Year Health Plan: AI, Data & Digital Transformation (July 2025)](https://www.burges-salmon.com/news-and-insight/thought-leadership/nhs-10-year-health-plan-ai-data-and-digital-transformation)
+
+- [NHS Digital Technology Assessment Criteria (DTAC)](https://transform.england.nhs.uk/key-tools-and-info/digital-technology-assessment-criteria-dtac/)
+
+
+
+### University and Research Guidance
+
+- [UKRIO Embracing AI with integrity](https://doi.org/10.37672/UKRIO.2025.06.embracingAIwithintegrity)
+
+- [IT Services Generative AI Guidance](https://uob.sharepoint.com/sites/itservices/SitePages/generative-ai.aspx) (UoB login required)
+
+- [Russell Group Principles on generative AI in education](../assets/Russell%20Group%20principles%20on%20generative%20AI%20in%20education.pdf)
+
+- [University Guidance on Generative AI in Education](https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/)
+
+- [Study Skills Resource on Using AI for Students](https://alt.content.bris.ac.uk/bbcswebdav/courses/Study_Skills/using-ai-at-university/)
+
+
+
+### Other training resources
+
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering)
+
+- [Anthropic's Guide to Claude](https://docs.anthropic.com/claude/docs)
+
+- [Google's AI Principles and Practices](https://ai.google/principles/)
+
+- [On the reg - podcast](https://onthereg.buzzsprout.com/)
+
+- [One useful thing - blog](https://www.oneusefulthing.org/)
+
+- [AI Ethics Lab](https://aiethicslab.com/)
+
+- [Partnership on AI](https://partnershiponai.org/)
+
+

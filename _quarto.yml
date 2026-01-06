@@ -1,0 +1,42 @@
+project:
+  type: website
+
+website:
+  title: "Harnessing AI in healthcare"
+  page-navigation: true
+
+  sidebar: 
+    title: "Harnessing AI in healthcare"
+    logo: "assets/UoB_RGB_24.png"
+    align: center
+    logo-alt: "University of Bristol logo"
+    style: "docked"
+    border: true
+    contents: 
+      - index.qmd
+      - auto: "pages/*qmd"
+
+
+
+  page-footer:
+    left: "[Jean Golding Institute](https://www.bristol.ac.uk/golding/) © [CC-BY 4.0](http://creativecommons.org/licenses/by/4.0/)"
+  repo-url: https://github.com/Bristol-Training/harnessing-ai-nbt
+
+format:
+  html:
+    #theme: [cosmo, styles.scss]
+    theme: [cosmo, style.scss]
+    toc: true
+    #shift-heading-level-by: 1
+    #filters:
+    #  - include-code-files
+    #highlight-style: github
+
+    # code-line-numbers: true
+
+
+execute:
+  freeze: auto
+
+
+

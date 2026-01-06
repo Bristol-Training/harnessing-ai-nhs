@@ -1,0 +1,191 @@
+---
+title: "Ethics & Environmental Impact"
+---
+---
+title: "Ethics & Environmental Impact"
+---
+
+::: {.callout-note}
+### Key Takeaways
+- Environmental sustainability is critical - Align AI use with NHS Net Zero commitments; use AI efficiently and choose appropriate models.
+- AI can perpetuate health inequalities - Watch for biases affecting patient outcomes; ensure equitable care for diverse populations.
+- Maintain clinical oversight - AI should enhance, not replace, clinical expertise and professional judgment.
+- Transparency builds trust - AI-influenced decisions must be explainable and auditable to patients and regulators.
+:::
+
+::: {.callout-important}
+## AI in healthcare settings
+
+All AI systems must be "evaluated for bias and aligned with ethical standards" and comply with principles of patient safety, transparency, and equitable care.
+
+[Find more →](./800-resources.qmd)
+
+:::
+
+
+## Environmental Impact and NHS Net Zero Commitments
+
+The NHS has committed to **"Delivering a Net Zero Health Service"** with ambitious targets:
+
+- **Net zero for controlled emissions by 2040** (direct NHS carbon footprint)
+- **Net zero for influenced emissions by 2045** (wider supply chain and services)
+
+As a healthcare professional, you must be mindful of environmental impacts when using AI tools. AI systems consume significant energy and natural resources, contributing to the NHS carbon footprint.
+
+### The Full Environmental Cost of AI
+
+AI's environmental impact extends beyond initial model training to encompass the entire life cycle: raw material extraction, manufacturing, training, deployment (inference), and disposal.
+
+**Training Phase**: Large language models require intensive computational resources. For example, GPT-3's training produced an estimated 85,000 kg of CO₂, equivalent to 112 cars running for a year.
+
+**Inference Phase**: The ongoing deployment phase (when users interact with models) can exceed training emissions within weeks ([Luccioni *et al.* 2024](https://doi.org/10.1145/3630106.3658542)). Every clinical query, every patient interaction with AI, requires computational resources and energy.
+
+**Data Center Infrastructure**: Generative AI is driving substantial growth in data centers, which have significant environmental costs:
+
+- Approximately **40% of data center energy** goes toward cooling processing units
+- AI systems consume vast amounts of **fresh water** for cooling
+- ChatGPT consumes approximately **half a liter of fresh water** for every chat of 20–50 prompts ([Li *et al.* 2025](https://doi.org/10.48550/arXiv.2304.03271))
+
+::: {.callout-warning}
+## Water Scarcity and Healthcare Sustainability
+
+Two-thirds of new data centers built in the USA since 2022 are located in areas already experiencing water scarcity. As healthcare professionals committed to health equity, we must consider how AI infrastructure impacts vulnerable communities globally.
+:::
+
+### Sustainable AI Practices in Clinical Settings
+
+Given the NHS Net Zero commitments and the significant consumption required for AI deployment, focusing on efficiency is essential:
+
+**Reduce Usage**:
+
+- Use AI for **high-value clinical tasks** where it demonstrably improves patient outcomes or safety
+- Avoid using AI for trivial tasks that can be completed efficiently without computational resources
+- Batch similar queries together when appropriate
+- Cache and reuse outputs when possible (ensuring compliance with data governance)
+
+**Choose Efficiently**:
+
+- Consider the computational cost of AI requests in clinical workflows
+- Use **smaller, more efficient models** when they meet clinical needs
+- Support Trust procurement decisions that prioritize providers committed to renewable energy
+- Consider whether AI use aligns with NHS sustainability goals
+
+
+
+::: {.callout-tip}
+## Clinical Context Matters
+
+Ask yourself: Does this AI use deliver meaningful patient benefit that justifies its environmental cost? If a traditional method achieves the same outcome with lower resource consumption, that may be the more sustainable choice.
+
+**It is acceptable to choose not to use AI** based on ethical and environmental factors
+:::
+
+
+## Bias, Equity, and Patient Outcomes
+
+AI systems can inherit and amplify existing health inequalities. **The Hospital Group AI Policy mandates that all AI systems be evaluated for bias to prevent discrimination and ensure equitable care for diverse patient populations.**
+
+Health inequalities are well-documented across multiple dimensions, and AI systems trained on biased data can perpetuate or worsen these disparities. As clinicians, we have a professional and ethical duty to ensure AI does not compromise equitable patient care.
+
+
+::: {.callout-warning}
+## Bias Detection Questions for Clinical AI
+
+When reviewing AI outputs or implementing AI systems, ask:
+
+- **Representation**: Which patient groups are included or excluded in the training data?
+- **Outcomes**: Does this AI perform equally well across different demographic groups?
+- **Language**: Are clinical descriptions fair and respectful to all patients?
+- **Assumptions**: What unstated assumptions is the AI making about patients?
+- **Access**: Can all patients benefit from this AI equally, or does it create new barriers?
+- **Validation**: Has this AI been validated in populations similar to our diverse patient cohort?
+:::
+
+
+
+
+## Transparency and Explainability
+
+**The Hospital Group AI Policy mandates that AI decision-making processes must be auditable, transparent, and explainable.** This is fundamental to maintaining patient trust and meeting professional accountability standards.
+
+### Why Transparency Matters
+
+**Patient Autonomy**: Patients have the right to understand how clinical decisions affecting their care are made, including when AI is involved.
+
+**Clinical Accountability**: As the responsible clinician, you must be able to explain your reasoning to patients, colleagues, and regulators—including how AI influenced your decisions.
+
+**Public Trust**: The NHS depends on public confidence. Opaque AI systems that cannot be explained undermine trust in healthcare.
+
+
+### Explainability in Practice
+
+When AI influences clinical decisions:
+
+- Record in patient notes when AI tools have been used
+- Explain how AI information contributed to your clinical reasoning
+- Inform patients when AI has contributed to their care pathway
+
+
+::: {.callout-important}
+## "Black Box" AI Is Not Acceptable
+
+If you cannot explain how an AI system reached a recommendation in plain language to a patient or colleague, it may not meet Trust requirements for transparency. Escalate concerns about unexplainable AI to the AI Governance Group.
+:::
+
+
+## Other Ethical Considerations
+
+Beyond bias and environmental concerns, AI use in healthcare raises important ethical questions about data rights, labor practices, and the value of human clinical judgment.
+
+### Data Rights and Consent
+
+Large language models are typically trained on vast datasets collected **without explicit consent from content creators or data subjects**. This raises particular concerns in healthcare:
+
+- **Patient Data**: Ensure no patient data enters unapproved AI systems without appropriate consent and governance
+- **Research Data**: Respect data sharing agreements and patient consent for secondary use
+- **Intellectual Property**: Academic medical literature used in AI training may lack proper attribution
+
+### Labor Practices in AI Development
+
+AI development relies heavily on labor that is often invisible to clinical users:
+
+- **Content Moderation**: Workers, often in lower-income countries, review harmful content and rate AI outputs
+- **Data Annotation**: Medical AI systems require expert annotation, which may be inadequately compensated
+- **Global Inequity**: AI benefits accrue to high-income healthcare settings while burdens (environmental, labor) affect vulnerable populations globally
+
+As NHS professionals committed to social justice, we should be aware of these structural inequities.
+
+### The Value of Clinical Judgment and Human Connection
+
+The appropriateness of AI use extends beyond technical performance to consider the **intrinsic value of human clinical judgment and the therapeutic relationship**.
+
+**Clinical Judgment Cannot Be Automated**:
+
+- Pattern recognition algorithms cannot replicate the holistic assessment of experienced clinicians
+- Clinical intuition, developed through years of practice, integrates subtle cues AI may miss
+- Professional judgment includes ethical reasoning and values that AI cannot capture
+
+**The Therapeutic Relationship Matters**:
+
+- Patient trust depends on genuine human connection and empathy
+- Using AI to generate clinical correspondence may signal you **do not value the patient interaction equally**
+- Compassionate communication requires authentic human engagement, not algorithmic efficiency
+
+**Professional Development**:
+
+- Clinical expertise develops through deliberate practice and reflective thinking
+- Over-reliance on AI may atrophy clinical skills, particularly in junior doctors
+- The process of clinical reasoning is as valuable as the diagnostic conclusion
+
+**Reliability and Safety**:
+
+- AI outputs may contain errors, hallucinations, or unverifiable claims
+- The effort required to verify AI recommendations may exceed independent clinical decision-making
+- Patient safety depends on your ability to critically evaluate AI outputs, not accept them uncritically
+
+::: {.callout-tip}
+## Maintain Human Primacy in Clinical Care
+
+AI should **enhance** your clinical capabilities, not replace your judgment. If you find yourself deferring to AI rather than thinking critically, step back and reassert your clinical autonomy. Your patients deserve your full professional engagement.
+:::
+

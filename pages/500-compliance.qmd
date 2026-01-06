@@ -1,0 +1,176 @@
+---
+title: "Privacy & Compliance"
+---
+
+
+
+::: {.callout-note}
+### Key Takeaways
+- Follow Hospital Group guidelines - Ensure compliance with mandatory frameworks, maintain transparency, document AI use appropriately
+- Never share sensitive data - No patient identifiable data, unpublished research, or confidential information in unapproved systems
+- Use the SAFE framework - Stick to approved tools, Always review outputs, Follow professional integrity, Enter minimal data
+- Assess risk and seek approval - Contact Information Governance for high-risk processing; DPIA mandatory for automated decision-making
+:::
+
+
+
+Artificial Intelligence is increasingly embedded in healthcare tools and systems, and it isn't always obvious when AI is operating in the background. Used appropriately, AI can improve clinical decision-making, streamline workflows, and enhance patient outcomes. However, AI also introduces significant compliance and safety risks, particularly when processing patient data or influencing clinical decisions.
+
+As healthcare professionals working within North Bristol NHS Trust (NBT) and University Hospitals Bristol and Weston NHS Foundation Trust (UHBW), you must understand what constitutes compliant AI use, when to seek guidance from Information Governance teams, and why awareness of "hidden AI" is critical to patient safety.
+
+::: {.callout-important}
+## Hospital Group AI Policy (HG-IG-001)
+
+All AI systems used within NBT and UHBW must comply with mandatory legal and regulatory frameworks. AI introduces compliance and safety risks, particularly when processing patient data or influencing clinical decisions.
+
+**Key principles**: Patient Safety First, Transparency & Explainability, Ethical Use & Bias Mitigation, Human Oversight, Compliance.
+
+[Find the full policy →](./800-resources.qmd)
+:::
+
+
+## Mandatory Compliance Framework
+
+All AI systems used within the Hospital Group must comply with:
+
+- **Data Protection Act 2018** and **UK GDPR**
+- **NHS Digital Technology Assessment Criteria (DTAC)**
+- **Clinical Safety Standards** (DCB0129 and DCB0160)
+- **Equality Act 2010**
+- **MHRA regulations** (where applicable to medical devices)
+- **NHS England AI guidance**
+- **Hospital Group AI Policy (HG-IG-001)**
+
+This applies to AI systems used for:
+
+- **Direct patient care** (e.g., clinical decision-making, diagnostics)
+- **Operational purposes** (e.g., workforce management, scheduling)
+- **Administrative tasks** (e.g., automated processes, documentation)
+- **Research and innovation**
+
+::: {.callout-important}
+## Consequences of Non-Compliance
+
+Failure to comply with this policy may result in:
+
+- Disciplinary action for staff
+- Termination of AI projects
+- Regulatory investigation for legislative breaches
+- Professional accountability implications
+:::
+
+## The SAFE Framework for Healthcare
+
+When using AI tools in clinical practice, remember to stay **SAFE**:
+
+### **S – Stick to approved tools**
+
+Use **only** platforms approved by Trust procurement that meet clinical safety standards. 
+
+- Approved tools operate within secure NHS infrastructure
+- Unapproved AI tools or "hidden AI" features pose high compliance and safety risks
+- Never use consumer-grade AI tools (e.g., ChatGPT, public cloud services) with patient data
+- If uncertain, contact the **Digital Services & Technology Team** or **Information Governance Team**
+
+### **A – Always review outputs**
+
+Clinicians remain responsible for all clinical decisions, regardless of AI involvement.
+
+- **AI must never replace clinical judgment** – you are accountable for patient care
+- A "human-in-the-loop" is required to mitigate clinical negligence risks
+- Review all outputs for accuracy, bias, and clinical appropriateness
+- AI can hallucinate information or perpetuate biases from training data
+- *Treat AI outputs as clinical decision support, not diagnostic certainty*
+
+### **F – Follow Professional Integrity**
+
+Transparency is essential in clinical practice and research.
+
+- Disclose AI use in clinical records where relevant to patient care
+- Document AI-assisted decisions with clear rationale
+- In research contexts, declare AI use in methodology sections
+- Professional bodies (GMC, NMC, etc.) require transparent decision-making
+
+### **E – Enter minimal data**
+
+Protect patient confidentiality at all times.
+
+- **Strictly avoid entering Personal Identifiable Data (PID) into general-purpose LLMs**
+- Never input sensitive health records, patient identifiers, or confidential information into unapproved systems
+- **PID must never be forwarded to any address other than those ending in @nbt.nhs.uk or @uhbw.nhs.uk**
+- Minimize personal data processing (data minimization principle)
+- Consider pseudonymisation or anonymisation where appropriate
+
+**Why SAFE matters**: Using unapproved tools violates data protection law and Trust policy. You remain professionally and legally accountable for patient care. Breaching patient confidentiality violates UK GDPR, professional codes, and patient trust.
+
+## Privacy Risk Assessment
+
+Before using AI with any data, assess the privacy risk level:
+
+#### Low Risk ✅
+
+- **Public information** already in the public domain
+- **Generic clinical concepts** without patient specifics
+- **Educational materials** with no identifiable information
+
+
+#### Medium Risk ⚠️ 
+
+- **Internal documents** without personal data
+- **Anonymized or aggregated data** (properly anonymized)
+- **Draft administrative content** with no patient identifiers
+
+
+#### High Risk ❌
+
+- **Any personal or patient identifiable data**
+- **Confidential health records**
+- **Research data** with identifiers
+- **Unpublished clinical information**
+- **Financial or security credentials**
+
+
+::: {.callout-important}
+## Never Share in AI Systems
+
+- Patient names, NHS numbers, dates of birth, addresses
+- Medical record numbers or hospital identifiers
+- Clinical notes, test results, imaging with identifiers
+- Unpublished research data with personal information
+- Staff personal data or security credentials
+- Financial information or passwords
+:::
+
+
+## When to Involve Information Governance
+
+Not all AI use is low risk. You **must** contact the **Information Governance Team** or **AI Governance Group** before using AI if:
+
+- AI will process **large volumes of patient data**, especially special category data (health records, genetic data, mental health information)
+- AI will **make or influence decisions about patients** (e.g., diagnosis, treatment planning, triage, resource allocation)
+- You plan to **combine multiple datasets** for profiling or predictive analytics
+- The AI application is **novel, complex, or feels high-risk**
+- You are considering a **new AI tool** or using an approved tool in an untested way
+- You are **developing a new AI model** for research or clinical use
+
+
+
+## Best Practices for Safe AI Use
+
+**Before using AI**:
+
+- Verify the tool is approved for your intended use
+- Assess the privacy risk level of your data
+- Understand the AI system's limitations and potential biases
+
+**During AI use**:
+
+- Use institutional accounts (e.g., @nbt.nhs.uk) where available
+- Minimize data entered – only what's necessary
+- Never include patient identifiers or sensitive data in unapproved systems
+- Review outputs critically before using them
+
+**After AI use**:
+
+- Document AI use in clinical records where relevant
+- Report any concerns about AI performance or safety

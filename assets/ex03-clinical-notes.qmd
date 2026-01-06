@@ -1,0 +1,130 @@
+
+
+*These notes are invented for medical education purposes and do not represent a real patient.*
+
+**Patient:** [SAMPLE PATIENT]  
+**Age:** 45F  
+**Date:** 03/01/2026  
+
+---
+
+### Presenting Complaint
+
+6-month history of progressive fatigue, unintentional weight gain (4kg), and cold intolerance. Also experiencing hot flashes x 8 months which she initially attributed to perimenopause.
+
+### History of Presenting Complaint
+
+Symptoms started gradually last summer with hot flashes occurring 4-5 times daily. Over subsequent months developed:
+
+- Persistent fatigue not relieved by rest
+- Weight gain despite no dietary changes
+- Cold intolerance, particularly hands and feet
+- Dry skin and thinning, brittle hair
+- Constipation (bowels now every 3-4 days, previously daily)
+- Brain fog - feels "slowed down" mentally, colleagues have noticed changes in productivity
+
+No neck pain, dysphagia, voice changes, or recent viral illness.
+
+### Past Medical History
+
+- Hypercholesterolemia (diagnosed 2018) - managed with atorvastatin 20mg
+- Otherwise well
+
+### Medications
+
+- Atorvastatin 20mg OD
+- Paracetamol PRN for headaches
+
+**Allergies:** NKDA
+
+### Family History
+
+- Sister diagnosed with Graves' disease aged 38 (significant for autoimmune thyroid disease)
+- Mother: T2DM, hypertension
+- Father: IHD
+
+### Social History
+
+Non-smoker, alcohol 6-8 units/week. Works as secondary school teacher. Lives with husband and two teenage children.
+
+---
+
+### Examination
+
+**Vital Signs:**
+
+- BP 128/82 | HR 58 bpm (regular) | Temp 36.4°C
+- Weight 74kg (previous 70kg six months ago) | BMI 27.3
+
+**Thyroid Examination:**
+
+Small, diffusely enlarged thyroid gland, non-tender with smooth texture. No discrete nodules palpable. No lymphadenopathy or bruit.
+
+**Other Findings:**
+
+- Delayed relaxation phase of ankle reflexes (typical hypothyroid sign)
+- Dry skin noted on extremities
+- Bradycardia
+- CVS and respiratory exam otherwise unremarkable
+
+---
+
+### Investigations (28/12/2025)
+
+**Thyroid Function Tests:**
+
+- TSH: 12.4 mIU/L (0.4-4.0) **↑↑**
+- Free T4: 8.2 pmol/L (9-25) **↓**
+- Free T3: 3.1 pmol/L (3.5-6.5) **↓**
+
+**Thyroid Antibodies:**
+
+- Anti-TPO: 486 IU/mL (<35) **↑↑↑** - strongly positive
+- Anti-thyroglobulin: 152 IU/mL (<40) **↑**
+
+**Liver Function Tests:**
+
+- ALT: 67 U/L (10-40) **↑**
+- AST: 58 U/L (10-40) **↑**
+- ALP, bilirubin, albumin, GGT - all within normal limits
+
+**Lipid Profile:**
+
+- Total Cholesterol: 6.8 mmol/L (elevated despite statin therapy)
+- LDL: 4.2 mmol/L | HDL: 1.6 mmol/L | Triglycerides: 2.2 mmol/L
+
+**Full Blood Count:**Normal (Hb 128 g/L, WCC 6.8, platelets 245)
+
+**Renal Function & Electrolytes:** Normal (Cr 68, eGFR >90, Na 139, K 4.2)
+
+**Glucose Metabolism:** Normal (fasting glucose 5.2 mmol/L, HbA1c 36 mmol/mol)
+
+---
+
+
+### Assessment
+
+**Primary hypothyroidism secondary to Hashimoto's thyroiditis**
+
+This patient presents with classical hypothyroid symptoms (fatigue, weight gain, cold intolerance, constipation, cognitive slowing, bradycardia) confirmed biochemically with elevated TSH and reduced thyroid hormones. The markedly elevated anti-TPO antibodies (>10x upper limit) strongly support Hashimoto's thyroiditis. Positive family history of autoimmune thyroid disease (sister with Graves') and diffusely enlarged smooth thyroid gland are consistent with this diagnosis.
+
+The mildly elevated transaminases are likely related to hypothyroidism itself - this commonly causes hepatic dysfunction that typically resolves with thyroid hormone replacement. Similarly, the elevated cholesterol despite statin therapy is a known consequence of untreated hypothyroidism.
+
+Hot flashes are likely perimenopausal symptoms occurring concurrently, though will reassess once euthyroid as thyroid dysfunction can occasionally affect temperature regulation.
+
+---
+
+### Management Plan
+
+**1. Thyroid Hormone Replacement**
+
+Starting levothyroxine 50 micrograms once daily. Using lower starting dose given cardiovascular risk factors (hypercholesterolemia). Advised to take on empty stomach 30 minutes before breakfast, avoiding calcium/iron supplements within 4 hours.
+
+**2. Monitoring Strategy**
+
+- Recheck TFTs in 6-8 weeks (TSH and Free T4)
+- Aim for TSH in lower half of reference range (0.4-2.5 mIU/L)
+- Titrate dose in 25 microgram increments based on results
+- Recheck LFTs at 3 months to confirm improvement
+- Reassess lipid profile once euthyroid - may be able to adjust statin dose
+

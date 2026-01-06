@@ -1,0 +1,152 @@
+---
+title: "Prompting Frameworks"
+---
+
+::: {.callout-note}
+### Key Takeaways
+- High-quality prompts eliminate ambiguity - Clear context upfront gets better responses
+- Use structured frameworks, e.g. the CLEAR framework, to ensure complete prompts
+- Never share sensitive data - No personal records, confidential research, or security information
+:::
+
+
+High-quality prompts that eliminate ambiguity are crucial for getting useful responses from Large Language Models. By providing comprehensive context upfront, you're more likely to receive output that matches your requirements. 
+
+**Scenario:** 
+You have been tasked with running a campaign to increase recruitment of European students for your University's MSc Engineering programs.
+
+You write the initial prompt: 
+
+> Write something about recruiting staff
+
+Problems with this prompt:
+
+- No context about the role, program, or target audience
+- Vague action ("write something")
+- No specifics about format, length, or communication channel
+- No examples of desired output
+- Unclear what type of recruitment content is needed
+
+
+We can use some frameworks to standardize our queries and make sure they are complete and don't forget any relevant details. There's no right or wrong approach — different frameworks may work better for different AI tools and yourself, so use the one that works better for you.
+
+
+### The CLEAR Framework
+
+The CLEAR framework offers a systematic approach to prompt construction that ensures comprehensive communication with AI models.
+
+**Context** - Establish the situation and background
+
+- Explain who you are and what you're working on
+- Provide relevant background information about your project or industry
+- Include any important constraints or considerations
+
+**Length** - Define output requirements
+
+- Specify how much content you want (word count, number of items, etc.)
+- Indicate format preferences (paragraphs, bullet points, sections)
+- Include any structural requirements
+
+**Examples** - Illustrate desired outcomes
+
+- Show examples of the style or format you're looking for
+- Provide sample inputs or scenarios when relevant
+- Include both positive examples (what you want) and negative examples (what to avoid)
+
+**Action** - State the specific task
+
+- Clearly articulate what you want the AI to do
+- Use specific action verbs (create, analyze, summarize, compare)
+- Be direct and avoid ambiguous language
+- Focus on one primary task per prompt
+
+**Role** - Define the AI's perspective
+
+- Specify what expertise or viewpoint the AI should adopt
+- Indicate the audience the AI should write for
+- Guide the AI's approach and decision-making framework
+
+A good prompt example using the CLEAR framework:
+
+> **Context:** I work in the postgraduate admissions team at a UK university promoting Clinical Doctoral programmes for healthcare professionals (e.g., nurses, allied health professionals, pharmacists). These programmes combine advanced research training with clinical practice, aiming to improve patient care and health systems. 
+> 
+> **Length:** Create a 250-350 word recruitment email with a compelling subject line and clear call-to-action.  
+> 
+> - Include a short testimonial format:  
+  *Dr Sarah, Clinical Doctoral Graduate: "This programme transformed my practice and opened doors to leadership roles."*    
+> - Avoid: heavy academic jargon or generic phrases like "apply now for exciting opportunities."   
+> 
+> **Action:** Write a recruitment email encouraging healthcare professionals to apply for our Clinical Doctoral PhD programmes. Highlight benefits such as impact on patient care, career progression, flexible study options, and strong NHS links. Address common concerns about time commitment and funding.    
+> 
+> **Role:** Act as an experienced postgraduate recruitment specialist who understands healthcare professionals’ priorities: improving patient outcomes, advancing their career, and managing work-life balance. Inspire confidence that this is a worthwhile investment in their future and their profession.
+
+
+
+::: {.callout-important}
+## AI Policy at NBT & UHBW (HG-IG-001)
+
+Independently of the prompting framework you are using, never share these with unapproved or general-purpose AI tools:
+
+🚫 **Personal Identifiable Data (PID)**: Patient medical records, health status, NHS numbers, or staff personal files.  
+🚫 **Sensitive Clinical Information**: Diagnostic scans, consultation transcripts (from AI Scribes), or unverified discharge summaries.  
+🚫 **Confidential Medical Research**: Unpublished clinical trial findings, grant applications under review, or proprietary drug discovery data.  
+🚫 **Commercially Sensitive Data**: Trust procurement contracts, vendor partnership agreements, or financial budgets.  
+🚫 **Legal & Security Sensitive**: Legal advice regarding clinical negligence, disciplinary proceedings, passwords, or system access credentials.
+
+[Find more →](./800-resources.qmd)
+:::
+
+
+
+<br>
+---
+
+
+
+### Exercise 3: Building CPD Agenda Prompt
+
+**Scenario**: You're organizing a Continuing Professional Development (CPD) session on "Managing Acute Coronary Syndrome in the Emergency Department" at North Bristol NHS Trust.
+
+**Task**: Create a prompt to help design the CPD session agenda.
+
+**Requirements**:
+
+- Use the CLEAR framework
+- Include appropriate constraints
+- Maintain clinical accuracy and patient safety focus
+- Ensure compliance with Trust governance
+
+**Reflection Questions**:
+
+- How do your prompts ensure AI enhances rather than replaces your clinical expertise?
+- What verification steps would you take for each output (e.g., checking against current NICE guidelines)?
+- How would you document AI assistance in the CPD materials?
+
+
+::: {.callout-caution collapse="true" icon=false}
+### Solution example
+
+Create a prompt to help design a CPD session on "Managing Acute Coronary Syndrome in the Emergency Department" at North Bristol NHS Trust.
+
+> **Context**: I'm an Emergency Medicine consultant organizing a CPD session on "Managing Acute Coronary Syndrome (ACS) in the Emergency Department" for junior doctors (FY2-ST3 level) and emergency nurse practitioners with varied experience in cardiology.  
+> 
+> **Length**: Create a detailed 4-hour CPD agenda with 15-20 minute segments.  
+> 
+> **Examples**: Include interactive elements like case-based discussions, ECG interpretation stations, and small group simulation scenarios, similar to effective clinical teaching sessions using flipped classroom approaches.  
+> 
+> **Action**: Design an agenda that balances didactic teaching, case discussions, and practical skills practice, progressing from initial assessment to definitive management and decision-making.  
+> 
+> **Role**: Act as an experienced clinical educator specializing in emergency medicine and acute care teaching.  
+> 
+> **Additional Constraints**:  
+> 
+> - Maximum 15 participants to allow for meaningful case discussion and skill practice.  
+> - Must align with current NICE guidelines on ACS management (CG94, NG185).  
+> - Reference must be made to MONA (Morphine, Oxygen, Nitrates, Aspirin) protocol and current evidence base.
+> - Include time for discussion of local Trust protocols and pathways.  
+> - Consider multidisciplinary learning needs (doctors and nurses).  
+> - Include clinical governance elements: learning outcomes, evaluation methods, and CPD certification requirements.  
+> - Build in time for questions and clarification of complex cases.  
+
+   
+:::
