@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Privacy &amp; Compliance – Harnessing AI in healthcare</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../pages/600-ethics.html" rel="next">
+<link href="../pages/400-conversational.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../pages/500-compliance.html">Privacy &amp; Compliance</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header sidebar-header-stacked">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../assets/UoB_RGB_24.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+    <div class="sidebar-title mb-0 py-0">
+      <a href="../">Harnessing AI in healthcare</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/100-llm.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">What are LLMs?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/110-ai-healthcare.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Why LLMs in healthcare?</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/200-tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LLMs tools</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/300-context.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Context matters</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/310-prompting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prompting Frameworks</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/400-conversational.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conversational Learning</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/500-compliance.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Privacy &amp; Compliance</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/600-ethics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ethics &amp; Environmental Impact</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/700-examples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Examples</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/800-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../pages/900-summary.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summary</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#mandatory-compliance-framework" id="toc-mandatory-compliance-framework" class="nav-link active" data-scroll-target="#mandatory-compliance-framework">Mandatory Compliance Framework</a></li>
+  <li><a href="#the-safe-framework-for-healthcare" id="toc-the-safe-framework-for-healthcare" class="nav-link" data-scroll-target="#the-safe-framework-for-healthcare">The SAFE Framework for Healthcare</a>
+  <ul class="collapse">
+  <li><a href="#s-stick-to-approved-tools" id="toc-s-stick-to-approved-tools" class="nav-link" data-scroll-target="#s-stick-to-approved-tools"><strong>S – Stick to approved tools</strong></a></li>
+  <li><a href="#a-always-review-outputs" id="toc-a-always-review-outputs" class="nav-link" data-scroll-target="#a-always-review-outputs"><strong>A – Always review outputs</strong></a></li>
+  <li><a href="#f-follow-professional-integrity" id="toc-f-follow-professional-integrity" class="nav-link" data-scroll-target="#f-follow-professional-integrity"><strong>F – Follow Professional Integrity</strong></a></li>
+  <li><a href="#e-enter-minimal-data" id="toc-e-enter-minimal-data" class="nav-link" data-scroll-target="#e-enter-minimal-data"><strong>E – Enter minimal data</strong></a></li>
+  </ul></li>
+  <li><a href="#privacy-risk-assessment" id="toc-privacy-risk-assessment" class="nav-link" data-scroll-target="#privacy-risk-assessment">Privacy Risk Assessment</a></li>
+  <li><a href="#when-to-involve-information-governance" id="toc-when-to-involve-information-governance" class="nav-link" data-scroll-target="#when-to-involve-information-governance">When to Involve Information Governance</a></li>
+  <li><a href="#best-practices-for-safe-ai-use" id="toc-best-practices-for-safe-ai-use" class="nav-link" data-scroll-target="#best-practices-for-safe-ai-use">Best Practices for Safe AI Use</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Privacy &amp; Compliance</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Key Takeaways
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Follow Hospital Group guidelines - Ensure compliance with mandatory frameworks, maintain transparency, document AI use appropriately</li>
+<li>Never share sensitive data - No patient identifiable data, unpublished research, or confidential information in unapproved systems</li>
+<li>Use the SAFE framework - Stick to approved tools, Always review outputs, Follow professional integrity, Enter minimal data</li>
+<li>Assess risk and seek approval - Contact Information Governance for high-risk processing; DPIA mandatory for automated decision-making</li>
+</ul>
+</div>
+</div>
+<p>Artificial Intelligence is increasingly embedded in healthcare tools and systems, and it isn’t always obvious when AI is operating in the background. Used appropriately, AI can improve clinical decision-making, streamline workflows, and enhance patient outcomes. However, AI also introduces significant compliance and safety risks, particularly when processing patient data or influencing clinical decisions.</p>
+<p>As healthcare professionals working within North Bristol NHS Trust (NBT) and University Hospitals Bristol and Weston NHS Foundation Trust (UHBW), you must understand what constitutes compliant AI use, when to seek guidance from Information Governance teams, and why awareness of “hidden AI” is critical to patient safety.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hospital Group AI Policy (HG-IG-001)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>All AI systems used within NBT and UHBW must comply with mandatory legal and regulatory frameworks. AI introduces compliance and safety risks, particularly when processing patient data or influencing clinical decisions.</p>
+<p><strong>Key principles</strong>: Patient Safety First, Transparency &amp; Explainability, Ethical Use &amp; Bias Mitigation, Human Oversight, Compliance.</p>
+<p><a href="../pages/800-resources.html">Find the full policy →</a></p>
+</div>
+</div>
+<section id="mandatory-compliance-framework" class="level2">
+<h2 class="anchored" data-anchor-id="mandatory-compliance-framework">Mandatory Compliance Framework</h2>
+<p>All AI systems used within the Hospital Group must comply with:</p>
+<ul>
+<li><strong>Data Protection Act 2018</strong> and <strong>UK GDPR</strong></li>
+<li><strong>NHS Digital Technology Assessment Criteria (DTAC)</strong></li>
+<li><strong>Clinical Safety Standards</strong> (DCB0129 and DCB0160)</li>
+<li><strong>Equality Act 2010</strong></li>
+<li><strong>MHRA regulations</strong> (where applicable to medical devices)</li>
+<li><strong>NHS England AI guidance</strong></li>
+<li><strong>Hospital Group AI Policy (HG-IG-001)</strong></li>
+</ul>
+<p>This applies to AI systems used for:</p>
+<ul>
+<li><strong>Direct patient care</strong> (e.g., clinical decision-making, diagnostics)</li>
+<li><strong>Operational purposes</strong> (e.g., workforce management, scheduling)</li>
+<li><strong>Administrative tasks</strong> (e.g., automated processes, documentation)</li>
+<li><strong>Research and innovation</strong></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Consequences of Non-Compliance
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Failure to comply with this policy may result in:</p>
+<ul>
+<li>Disciplinary action for staff</li>
+<li>Termination of AI projects</li>
+<li>Regulatory investigation for legislative breaches</li>
+<li>Professional accountability implications</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="the-safe-framework-for-healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="the-safe-framework-for-healthcare">The SAFE Framework for Healthcare</h2>
+<p>When using AI tools in clinical practice, remember to stay <strong>SAFE</strong>:</p>
+<section id="s-stick-to-approved-tools" class="level3">
+<h3 class="anchored" data-anchor-id="s-stick-to-approved-tools"><strong>S – Stick to approved tools</strong></h3>
+<p>Use <strong>only</strong> platforms approved by Trust procurement that meet clinical safety standards.</p>
+<ul>
+<li>Approved tools operate within secure NHS infrastructure</li>
+<li>Unapproved AI tools or “hidden AI” features pose high compliance and safety risks</li>
+<li>Never use consumer-grade AI tools (e.g., ChatGPT, public cloud services) with patient data</li>
+<li>If uncertain, contact the <strong>Digital Services &amp; Technology Team</strong> or <strong>Information Governance Team</strong></li>
+</ul>
+</section>
+<section id="a-always-review-outputs" class="level3">
+<h3 class="anchored" data-anchor-id="a-always-review-outputs"><strong>A – Always review outputs</strong></h3>
+<p>Clinicians remain responsible for all clinical decisions, regardless of AI involvement.</p>
+<ul>
+<li><strong>AI must never replace clinical judgment</strong> – you are accountable for patient care</li>
+<li>A “human-in-the-loop” is required to mitigate clinical negligence risks</li>
+<li>Review all outputs for accuracy, bias, and clinical appropriateness</li>
+<li>AI can hallucinate information or perpetuate biases from training data</li>
+<li><em>Treat AI outputs as clinical decision support, not diagnostic certainty</em></li>
+</ul>
+</section>
+<section id="f-follow-professional-integrity" class="level3">
+<h3 class="anchored" data-anchor-id="f-follow-professional-integrity"><strong>F – Follow Professional Integrity</strong></h3>
+<p>Transparency is essential in clinical practice and research.</p>
+<ul>
+<li>Disclose AI use in clinical records where relevant to patient care</li>
+<li>Document AI-assisted decisions with clear rationale</li>
+<li>In research contexts, declare AI use in methodology sections</li>
+<li>Professional bodies (GMC, NMC, etc.) require transparent decision-making</li>
+</ul>
+</section>
+<section id="e-enter-minimal-data" class="level3">
+<h3 class="anchored" data-anchor-id="e-enter-minimal-data"><strong>E – Enter minimal data</strong></h3>
+<p>Protect patient confidentiality at all times.</p>
+<ul>
+<li><strong>Strictly avoid entering Personal Identifiable Data (PID) into general-purpose LLMs</strong></li>
+<li>Never input sensitive health records, patient identifiers, or confidential information into unapproved systems</li>
+<li><strong>PID must never be forwarded to any address other than those ending in <span class="citation" data-cites="nbt.nhs.uk">@nbt.nhs.uk</span> or <span class="citation" data-cites="uhbw.nhs.uk">@uhbw.nhs.uk</span></strong></li>
+<li>Minimize personal data processing (data minimization principle)</li>
+<li>Consider pseudonymisation or anonymisation where appropriate</li>
+</ul>
+<p><strong>Why SAFE matters</strong>: Using unapproved tools violates data protection law and Trust policy. You remain professionally and legally accountable for patient care. Breaching patient confidentiality violates UK GDPR, professional codes, and patient trust.</p>
+</section>
+</section>
+<section id="privacy-risk-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="privacy-risk-assessment">Privacy Risk Assessment</h2>
+<p>Before using AI with any data, assess the privacy risk level:</p>
+<section id="low-risk" class="level4">
+<h4 class="anchored" data-anchor-id="low-risk">Low Risk ✅</h4>
+<ul>
+<li><strong>Public information</strong> already in the public domain</li>
+<li><strong>Generic clinical concepts</strong> without patient specifics</li>
+<li><strong>Educational materials</strong> with no identifiable information</li>
+</ul>
+</section>
+<section id="medium-risk" class="level4">
+<h4 class="anchored" data-anchor-id="medium-risk">Medium Risk ⚠️</h4>
+<ul>
+<li><strong>Internal documents</strong> without personal data</li>
+<li><strong>Anonymized or aggregated data</strong> (properly anonymized)</li>
+<li><strong>Draft administrative content</strong> with no patient identifiers</li>
+</ul>
+</section>
+<section id="high-risk" class="level4">
+<h4 class="anchored" data-anchor-id="high-risk">High Risk ❌</h4>
+<ul>
+<li><strong>Any personal or patient identifiable data</strong></li>
+<li><strong>Confidential health records</strong></li>
+<li><strong>Research data</strong> with identifiers</li>
+<li><strong>Unpublished clinical information</strong></li>
+<li><strong>Financial or security credentials</strong></li>
+</ul>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Never Share in AI Systems
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>Patient names, NHS numbers, dates of birth, addresses</li>
+<li>Medical record numbers or hospital identifiers</li>
+<li>Clinical notes, test results, imaging with identifiers</li>
+<li>Unpublished research data with personal information</li>
+<li>Staff personal data or security credentials</li>
+<li>Financial information or passwords</li>
+</ul>
+</div>
+</div>
+</section>
+</section>
+<section id="when-to-involve-information-governance" class="level2">
+<h2 class="anchored" data-anchor-id="when-to-involve-information-governance">When to Involve Information Governance</h2>
+<p>Not all AI use is low risk. You <strong>must</strong> contact the <strong>Information Governance Team</strong> or <strong>AI Governance Group</strong> before using AI if:</p>
+<ul>
+<li>AI will process <strong>large volumes of patient data</strong>, especially special category data (health records, genetic data, mental health information)</li>
+<li>AI will <strong>make or influence decisions about patients</strong> (e.g., diagnosis, treatment planning, triage, resource allocation)</li>
+<li>You plan to <strong>combine multiple datasets</strong> for profiling or predictive analytics</li>
+<li>The AI application is <strong>novel, complex, or feels high-risk</strong></li>
+<li>You are considering a <strong>new AI tool</strong> or using an approved tool in an untested way</li>
+<li>You are <strong>developing a new AI model</strong> for research or clinical use</li>
+</ul>
+</section>
+<section id="best-practices-for-safe-ai-use" class="level2">
+<h2 class="anchored" data-anchor-id="best-practices-for-safe-ai-use">Best Practices for Safe AI Use</h2>
+<p><strong>Before using AI</strong>:</p>
+<ul>
+<li>Verify the tool is approved for your intended use</li>
+<li>Assess the privacy risk level of your data</li>
+<li>Understand the AI system’s limitations and potential biases</li>
+</ul>
+<p><strong>During AI use</strong>:</p>
+<ul>
+<li>Use institutional accounts (e.g., <span class="citation" data-cites="nbt.nhs.uk">@nbt.nhs.uk</span>) where available</li>
+<li>Minimize data entered – only what’s necessary</li>
+<li>Never include patient identifiers or sensitive data in unapproved systems</li>
+<li>Review outputs critically before using them</li>
+</ul>
+<p><strong>After AI use</strong>:</p>
+<ul>
+<li>Document AI use in clinical records where relevant</li>
+<li>Report any concerns about AI performance or safety</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../pages/400-conversational.html" class="pagination-link" aria-label="Conversational Learning">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Conversational Learning</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../pages/600-ethics.html" class="pagination-link" aria-label="Ethics &amp; Environmental Impact">
+        <span class="nav-page-text">Ethics &amp; Environmental Impact</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p><a href="https://www.bristol.ac.uk/golding/">Jean Golding Institute</a> © <a href="http://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
