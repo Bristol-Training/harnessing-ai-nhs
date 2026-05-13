@@ -45,3 +45,7 @@ We used the enhancement of AI in alignment with our institutional guidance:
 - **ChatGPT (GPT-5)** -- Generation of figures
 
 For queries related to this course please contact [jgi-training@bristol.ac.uk](mailto:jgi-training@bristol.ac.uk).
+
+
+[[QR]](./assets/qr.pdf)
+
